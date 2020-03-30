@@ -1,0 +1,17 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <title>Heart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container" onmouseout="unbackgroundBit(this)">
+        <div id="heart" 
+            onmouseover="expandHeart(this); backgroundBit(container);" 
+            onmouseout="normalHeart(this); unbackgroundBit(container)">
+        </div>
+    </div>
+    <script src="heart.js"></script>
+</body>
+</html>
+
